@@ -1,0 +1,41 @@
+% 141007
+
+****** SCITOYS
+
+Small scientific animations in C++, using the hvb libraries
+
+Developers:
+Javier Rodriguez-Laguna, Instituto de Física Teórica, CSIC (Spain)
+
+
+1. PURPOSE
+
+Gather beautiful scientific animations which also have didactic value.
+
+
+2. INSTALLATION
+
+In order to watch all the animations, you need the following
+libraries, including the development files:
+
+* BLAS & LAPACK
+* X11
+* Imlib2
+
+For example, in ubuntu, apply the following command:
+
+>> sudo apt-get install g++ libblas3 libblas-dev liblapack3 liblapack-dev libx11-dev libimlib2 libimlib2-dev
+
+In other UNIX systems the packages may have different names.
+
+Now enter each directory and do:
+
+>> make xtest
+>> ./xtest
+
+
+3. OUR SCITOYS
+
+- xthreebody.cc, solves numerically the three-body problem.
+
+- 
