@@ -38,4 +38,11 @@ Now enter each directory and do:
 
 - xthreebody.cc, solves numerically the three-body problem.
 
-- 
+- xgoldenspiral.cc, animation of discrete spirals close to the golden one.
+
+- xpascal.cc, shows the Pascal triangle mod m, for m in {1..20}
+
+- xpassive.cc, animation of a passive scalar field advected by a
+  turbulent flow composed of many vortices.
+
+- xsqpiral.cc, discrete spiral, simple algorithm but wonderful patterns.
